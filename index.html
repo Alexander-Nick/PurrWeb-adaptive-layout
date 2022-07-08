@@ -1,13 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.min.css">
-    <title>Purrweb landing</title>
-</head>
-
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/style.css?_v=20220708113302">
+        <title>Purrweb landing</title>
+    </head>
 <body>
     <header class="header">
         <div class="header">
@@ -276,14 +275,12 @@
             </div>
         </section>
         <section class="notab">
-            <div class="notab__content">
-                <div class="notab__back">
-                    <picture><source srcset="img/notabBack.webp" type="image/webp"><img src="img/notabBack.png" alt="Back"></picture>
-                </div>
-                <div class="notab__phone _container">
-                    <div class="notab__image">
-                        <picture><source srcset="img/notabPhone.webp" type="image/webp"><img src="img/notabPhone.png" alt=""></picture>
-                    </div>
+            <div class="notab__back">
+                <picture><source srcset="img/notabBack.webp" type="image/webp"><img src="img/notabBack.png" alt="Back"></picture>
+            </div>
+            <div class="notab__phone _container">
+                <div class="notab__image">
+                    <picture><source srcset="img/notabPhone.webp" type="image/webp"><img src="img/notabPhone.png" alt=""></picture>
                 </div>
             </div>
         </section>
@@ -293,15 +290,15 @@
                     <h2 class="form__title _title">Get In Touch</h2>
                     <p class="form__text _text">Have questions about Noble or just want to say hello? <br> Drop us a
                         line and a member of our team will getback to you shortly.</p>
-                    <input type="text" placeholder="Name" name="name" >
-                    <input type="text" placeholder="Venue Name" name="venueName" >
+                    <input type="text" placeholder="Name" name="name" id="">
+                    <input type="text" placeholder="Venue Name" name="venueName" id="">
                     <div class="form__location">
-                        <input type="text" placeholder="Venue City" name="venueCity" >
-                        <input type="text" placeholder="State City" name="stateCity" >
+                        <input type="text" placeholder="Venue City" name="venueCity" id="">
+                        <input type="text" placeholder="State City" name="stateCity" id="">
                     </div>
-                    <input type="text" placeholder="Email" name="email" >
-                    <input type="text" placeholder="Subject" name="subject" >
-                    <textarea placeholder="Message" name="message"  cols="30" rows="10"></textarea>
+                    <input type="text" placeholder="Email" name="email" id="">
+                    <input type="text" placeholder="Subject" name="subject" id="">
+                    <textarea placeholder="Message" name="message" id="" cols="30" rows="10"></textarea>
                     <button class="form__button"><span>Send</span></button>
                 </div>
                 <div class="form__shadows">
@@ -314,7 +311,6 @@
                 </div>
             </div>
         </form>
-
         <section class="download">
             <div class="download__container _container">
                 <div class="download__content">
@@ -349,7 +345,7 @@
             </div>
         </div>
     </footer>
-    <script src="js/app.min.js?_v=20220707183103"></script>
+    <script src="js/app.min.js"></script>
 </body>
 
 </html>
